@@ -1,0 +1,38 @@
+﻿<Window x:Class="serega_kursa4.Registration"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Registration" Height="600" Width="800">
+    <Grid Background="{StaticResource BackGroundColor}">
+
+        <!-- Заголовок страницы регистрации -->
+        <TextBlock Text="Регистрация" FontSize="24" FontWeight="Bold" Foreground="{StaticResource TextWhite}" 
+                   HorizontalAlignment="Center" Margin="0,30,0,20"/>
+        <Button Content="Назад" x:Name="backToMainPage" Style="{StaticResource NavigationButtonStyle}" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" Cursor="Hand" Click="BackToMainPage" />
+
+        <Border Style="{StaticResource RoundedStackPanelStyle}" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <!-- Поля для регистрации -->
+            <StackPanel Width="300">
+
+                <!-- Поле ввода email -->
+                <TextBlock Text="Email:" FontSize="16" Foreground="{StaticResource TextWhite}" Margin="0,10,0,5"/>
+                <TextBox Style="{StaticResource inputBox}" x:Name="emailField" Text="{Binding Email}" FontSize="14" Padding="8" Margin="0,0,0,10"/>
+
+                <!-- Поле ввода логина -->
+                <TextBlock Text="Логин:" FontSize="16" Foreground="{StaticResource TextWhite}" Margin="0,10,0,5"/>
+                <TextBox Style="{StaticResource inputBox}" x:Name="userName" Text="{Binding Username}" FontSize="14" Padding="8" Margin="0,0,0,10"/>
+
+                <!-- Поле для пароля -->
+                <TextBlock Text="Пароль:" FontSize="16" Foreground="{StaticResource TextWhite}" Margin="0,10,0,5"/>
+                <PasswordBox Style="{StaticResource passwordStyle}"  x:Name="passwordBox"  FontSize="14" Padding="8" Margin="0,0,0,10"/>
+
+                <!-- Поле подтверждения пароля -->
+                <TextBlock Text="Подтвердите пароль:" FontSize="16" Foreground="{StaticResource TextWhite}" Margin="0,10,0,5"/>
+                <PasswordBox Style="{StaticResource passwordStyle}" x:Name="confirmPasswordBox"  FontSize="14" Padding="8" Margin="0,0,0,20"/>
+
+                <!-- Кнопка завершения регистрации -->
+                <Button Content="Зарегистрироваться" Style="{StaticResource NavigationButtonStyle}" Width="200" Margin="0,0,0,10" 
+                    Click="registrationUser"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

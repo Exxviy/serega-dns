@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\sku.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\sku.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\order.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\order.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\clients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\clients.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\reports.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\reports.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\employees.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\employees.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\settings.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\registration.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|c:\\users\\holyca\\downloads\\telegram desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\createorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\createorder.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\addclient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\addclient.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\addsku.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AD684D94-40B5-4064-BA14-46309CC8A8F7}|serega-kursa4\\serega-kursa4.csproj|solutionrelative:serega-kursa4\\addsku.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 172,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "createOrder.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\createOrder.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\createOrder.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\createOrder.xaml",
+              "RelativeToolTip": "serega-kursa4\\createOrder.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T15:29:36.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "addClient.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\addClient.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\addClient.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\addClient.xaml",
+              "RelativeToolTip": "serega-kursa4\\addClient.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T15:28:02.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "addSku.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\addSku.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\addSku.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\addSku.xaml",
+              "RelativeToolTip": "serega-kursa4\\addSku.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T15:26:26.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "settings.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\settings.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\settings.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\settings.xaml",
+              "RelativeToolTip": "serega-kursa4\\settings.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T15:22:38.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "employees.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\employees.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\employees.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\employees.xaml",
+              "RelativeToolTip": "serega-kursa4\\employees.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T15:20:30.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reports.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\Reports.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\Reports.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\Reports.xaml",
+              "RelativeToolTip": "serega-kursa4\\Reports.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T15:18:36.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clients.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\clients.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\clients.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\clients.xaml",
+              "RelativeToolTip": "serega-kursa4\\clients.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T15:16:34.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "order.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\order.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\order.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\order.xaml",
+              "RelativeToolTip": "serega-kursa4\\order.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T15:14:28.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\App.config",
+              "RelativeDocumentMoniker": "serega-kursa4\\App.config",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\App.config",
+              "RelativeToolTip": "serega-kursa4\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-27T15:07:40.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sku.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\sku.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\sku.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\sku.xaml",
+              "RelativeToolTip": "serega-kursa4\\sku.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T15:04:41.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\MainPage.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\MainPage.xaml",
+              "RelativeToolTip": "serega-kursa4\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T14:52:40.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Registration.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\Registration.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\Registration.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\Registration.xaml",
+              "RelativeToolTip": "serega-kursa4\\Registration.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T14:49:45.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\App.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\App.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\App.xaml",
+              "RelativeToolTip": "serega-kursa4\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T14:49:25.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "serega-kursa4\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\MainWindow.xaml",
+              "RelativeToolTip": "serega-kursa4\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-27T14:40:27.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "serega-kursa4\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Holyca\\Downloads\\Telegram Desktop\\torgovoe-predpryuatie-serega\\serega-kursa4\\serega-kursa4\\MainWindow.xaml.cs",
+              "RelativeToolTip": "serega-kursa4\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T14:40:26.643Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

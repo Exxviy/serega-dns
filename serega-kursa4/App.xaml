@@ -1,0 +1,156 @@
+﻿<Application x:Class="serega_kursa4.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:serega_kursa4"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Цвета -->
+        <SolidColorBrush x:Key="ColorButton" Color="#7a8ca9"/>
+        <SolidColorBrush x:Key="BackGroundColor" Color="#1d3867"/>
+        <SolidColorBrush x:Key="BackGroundLight" Color="#334d77"/>
+        <SolidColorBrush x:Key="BackGroundMoreLight" Color="#4a6188"/>
+        <SolidColorBrush x:Key="TextWhite" Color="#e3e7ee"/>
+        <SolidColorBrush x:Key="TextSecondaryColor" Color="#e3e7ee"/>
+      
+
+
+        <!-- Стиль кнопки навигации -->
+        <Style x:Key="NavigationButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="{StaticResource ColorButton}"/>
+            <Setter Property="Foreground" Value="#e8eef1"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="Margin" Value="10,5"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Height" Value="50"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="PartBorder" 
+                        Background="{TemplateBinding Background}" 
+                        BorderBrush="{TemplateBinding BorderBrush}"
+                        BorderThickness="{TemplateBinding BorderThickness}"
+                        CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="PartBorder" Property="Background" Value="#627799"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Стиль текстовой кнопки -->
+        <Style x:Key="TextButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="{StaticResource TextSecondaryColor}"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="PartBorder" 
+                        Background="{TemplateBinding Background}" >
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="PartBorder" Property="Background" Value="transparent"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+
+        <Style x:Key="RoundedStackPanelStyle" TargetType="Border">
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="BorderBrush" Value="#062456"/>
+            <Setter Property="BorderThickness" Value="0.1"/>
+            <Setter Property="Padding" Value="1"/>
+            <Setter Property="Width" Value="330"/>
+            <Setter Property="Background" Value="{StaticResource BackGroundLight}"></Setter>
+        </Style>
+
+        <Style x:Key="inputBox" TargetType="TextBox" >
+            <Setter Property="Foreground" Value="{StaticResource TextWhite}" ></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border CornerRadius="12" Padding="2" BorderThickness="1" Background="{StaticResource BackGroundMoreLight}">
+                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="passwordStyle" TargetType="PasswordBox" >
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border CornerRadius="12" Padding="2" BorderThickness="1" Background="{StaticResource BackGroundMoreLight}">
+                            <ScrollViewer Margin="0" x:Name="PART_ContentHost"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <!-- Стиль для ListView, обернутого в Border с CornerRadius -->
+        <Style TargetType="ListView">
+            <Setter Property="BorderBrush" Value="#062456"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Background" Value="{StaticResource BackGroundMoreLight}"/>
+            <Setter Property="Foreground" Value="{StaticResource TextWhite}"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+
+            <Style TargetType="ListViewItem">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Foreground" Value="#e3e7ee"/>
+                <Style.Triggers>
+                    <!-- Цвет при наведении -->
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#334d77"/>
+                    </Trigger>
+                    <!-- Цвет при выделении -->
+                    <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background" Value="#062456"/>
+                        <Setter Property="Foreground" Value="#e3e7ee"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+        <!-- Стиль для заголовков столбцов -->
+        <Style TargetType="GridViewColumnHeader">
+            <Setter Property="BorderBrush" Value="{StaticResource BackGroundColor}"/>
+            <Setter Property="Background" Value="{StaticResource BackGroundLight}"/>
+            <Setter Property="Foreground" Value="{StaticResource TextWhite}"/>
+            <Setter Property="BorderThickness" Value="3"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+        </Style>
+
+        <Style x:Key="groupStyle" TargetType="GroupBox" >
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="GroupBox">
+                        <Border CornerRadius="12" Padding="2" BorderThickness="1" Height="200"  Width="800" Background="#4a6188">
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+     
+
+    </Application.Resources>
+</Application>

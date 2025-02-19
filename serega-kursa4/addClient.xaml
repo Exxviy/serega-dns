@@ -1,0 +1,52 @@
+﻿<Window x:Class="serega_kursa4.addClient"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:serega_kursa4"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="800"
+      Title="addClient">
+
+    <Grid Background="{StaticResource BackGroundColor}" >
+
+        <!-- Заголовок страницы -->
+        <TextBlock Text="Добавить нового клиента" FontSize="24" FontWeight="Bold" Foreground="{StaticResource TextWhite}" 
+                   HorizontalAlignment="Center" Margin="0,20,0,20"/>
+        <Button x:Name="backToMainPage" Content="Назад" Style="{StaticResource NavigationButtonStyle}" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" Cursor="Hand" Click="BackToMainPage" />
+
+        <!-- Поля для ввода информации о клиенте -->
+        <Border  Style="{StaticResource RoundedStackPanelStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" >
+            
+        <StackPanel  Width="300" >
+                <!-- Поле ввода ФИО клиента -->
+            <TextBlock Text="ФИО: " FontSize="16" Padding="5" Foreground="{StaticResource TextWhite}" Margin="0,0,5,10"/>
+                <TextBox Style="{StaticResource inputBox}" x:Name="surName" Width="300" Height="30" Padding="5"   Margin="0,0,0,5" />
+                <TextBox Style="{StaticResource inputBox}" x:Name="name" Width="300" Height="30" Padding="5"  Margin="0,0,0,5" />
+                <TextBox Style="{StaticResource inputBox}" x:Name="lastName" Width="300" Height="30" Padding="5"  Margin="0,0,0,5" />
+
+            <!-- Поле ввода телефона -->
+            <TextBlock Text="Телефон:" FontSize="16" Foreground="{StaticResource TextWhite}" Margin="0,0,0,5"/>
+                <TextBox Style="{StaticResource inputBox}" x:Name="phoneNumber" Width="300" Padding="5" Margin="0,0,0,15"/>
+
+            <!-- Поле ввода email -->
+            <TextBlock Text="Email:" FontSize="16" Foreground="{StaticResource TextWhite}" Margin="0,0,0,5"/>
+            <TextBox Style="{StaticResource inputBox}" x:Name="email" Width="300" Padding="5" Margin="0,0,0,15" />
+
+            <!-- Поле выбора уровня лояльности -->
+            <TextBlock Text="Уровень лояльности:" FontSize="16" Foreground="{StaticResource TextWhite}" Margin="0,0,0,5"/>
+            <ComboBox x:Name="loyaltyLevelComboBox" Width="300" Padding="5" Margin="0,0,0,20">
+                <ComboBoxItem Content="Базовый"/>
+                <ComboBoxItem Content="Серебряный"/>
+                <ComboBoxItem Content="Золотой"/>
+                <ComboBoxItem Content="Платиновый"/>
+                <!-- Дополнительные уровни можно добавить при необходимости -->
+            </ComboBox>
+
+            <!-- Кнопка для добавления клиента -->
+            <Button x:Name="addClients" Content="Добавить клиента" Style="{StaticResource NavigationButtonStyle}" Width="200" Height="40" HorizontalAlignment="Center" Click="AddClient" Cursor="Hand" />
+        </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>

@@ -1,0 +1,254 @@
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.AssemblyReference.cache
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainPage.g.cs
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.g.cs
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Registration.g.cs
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\App.g.cs
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.cache
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.lref
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe.config
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.pdb
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\App.baml
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainPage.baml
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.baml
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Registration.baml
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.g.resources
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega_kursa4.Properties.Resources.resources
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.GenerateResource.cache
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CoreCompileInputs.cache
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.exe
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.pdb
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\sku.g.cs
+C:\Users\Сultist\diplom-zakaz\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\sku.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.AssemblyReference.cache
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.SuggestedBindingRedirects.cache
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Registration.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addClient.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addSku.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\clients.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\createOrder.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\employees.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainPage.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\order.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Registration.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Reports.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\settings.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\sku.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\App.g.cs
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.cache
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.lref
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.exe
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.pdb
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe.config
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.dll
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.xml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\App.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addClient.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addSku.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\clients.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\createOrder.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\employees.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainPage.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\order.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Reports.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\settings.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\sku.baml
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.g.resources
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega_kursa4.Properties.Resources.resources
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.GenerateResource.cache
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CoreCompileInputs.cache
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CopyComplete
+C:\Users\79518\Desktop\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.pdb
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe.config
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.pdb
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.dll
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.xml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.AssemblyReference.cache
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.SuggestedBindingRedirects.cache
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Registration.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addClient.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addSku.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\clients.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\createOrder.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\employees.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainPage.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\order.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Registration.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Reports.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\settings.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\sku.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\App.g.cs
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.cache
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.lref
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\App.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addClient.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addSku.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\clients.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\createOrder.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\employees.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainPage.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\order.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Reports.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\settings.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\sku.baml
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.g.resources
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega_kursa4.Properties.Resources.resources
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.GenerateResource.cache
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CoreCompileInputs.cache
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CopyComplete
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.exe
+C:\Users\79518\Desktop\Новая папка (3)\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.pdb
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe.config
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.pdb
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.dll
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.xml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.AssemblyReference.cache
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.SuggestedBindingRedirects.cache
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Registration.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addClient.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addSku.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\clients.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\createOrder.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\employees.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainPage.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\order.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Registration.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Reports.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\settings.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\sku.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\App.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.cache
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.lref
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\App.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addClient.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addSku.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\clients.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\createOrder.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\employees.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainPage.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\order.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Reports.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\settings.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\sku.baml
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.g.resources
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega_kursa4.Properties.Resources.resources
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.GenerateResource.cache
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CoreCompileInputs.cache
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CopyComplete
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.exe
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.pdb
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\makeCategory.g.cs
+C:\Users\79518\Desktop\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\makeCategory.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe.config
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.pdb
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.dll
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.xml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.AssemblyReference.cache
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.SuggestedBindingRedirects.cache
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Registration.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addClient.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addSku.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\clients.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\createOrder.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\employees.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainPage.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\makeCategory.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\order.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Registration.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Reports.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\settings.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\sku.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\App.g.cs
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.cache
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.lref
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\App.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addClient.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\addSku.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\clients.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\createOrder.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\employees.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainPage.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\makeCategory.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\order.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\Reports.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\settings.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\sku.baml
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.g.resources
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega_kursa4.Properties.Resources.resources
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.GenerateResource.cache
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CoreCompileInputs.cache
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CopyComplete
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.exe
+C:\Users\79518\Desktop\BackupKusrauc\kursachYanvar\torgovoe-predpryuatie-serega\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.pdb
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe.config
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.exe
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\bin\Debug\serega-kursa4.pdb
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.dll
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.xml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.AssemblyReference.cache
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.SuggestedBindingRedirects.cache
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\Registration.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\addClient.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\AddEditEmployeeWindow.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\addSku.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\clients.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\createOrder.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\employees.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\MainPage.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\makeCategory.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\order.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\Registration.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\Reports.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\selectProducts.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\settings.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\sku.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\Sorting.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\App.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.cache
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4_MarkupCompile.lref
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\App.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\addClient.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\AddEditEmployeeWindow.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\addSku.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\clients.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\createOrder.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\employees.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\MainPage.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\MainWindow.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\makeCategory.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\order.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\Reports.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\selectProducts.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\settings.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\sku.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\Sorting.baml
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.g.resources
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega_kursa4.Properties.Resources.resources
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.GenerateResource.cache
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CoreCompileInputs.cache
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CopyComplete
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.exe
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.pdb

@@ -1,0 +1,81 @@
+﻿<Window x:Class="serega_kursa4.Reports"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:serega_kursa4"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Reports">
+
+    <Grid Background="{StaticResource BackGroundColor}" >
+        <!-- Определение строк и столбцов в Grid -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Заголовок -->
+            <RowDefinition Height="Auto"/>
+            <!-- Фильтры и кнопка отчета -->
+            <RowDefinition Height="*"/>
+            <!-- Таблица отчета -->
+            <RowDefinition Height="Auto"/>
+            <!-- Панель экспорта -->
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <!-- Все элементы по ширине -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Заголовок страницы -->
+        <TextBlock Text="Отчеты" FontSize="24" FontWeight="Bold" Foreground="{StaticResource TextWhite}" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,10" Grid.Row="0"/>
+        <Button x:Name="backToMainPage" Click="BackMainPage" Content="Назад" Style="{StaticResource NavigationButtonStyle}" Width="150" HorizontalAlignment="Left" VerticalAlignment="Top" Cursor="Hand" />
+
+        <!-- Панель фильтрации и выбора -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="10" Grid.Row="1">
+            <ComboBox x:Name="ReportTypeComboBox" Width="200" Padding="5" Margin="0,0,10,0" SelectedIndex="0">
+                <ComboBoxItem Content="Отчет по продажам"/>
+                <ComboBoxItem Content="Отчет по остаткам"/>
+                <ComboBoxItem Content="Отчет по прибыли"/>
+            </ComboBox>
+
+            <TextBlock Text="Период:" FontSize="16" Foreground="{StaticResource TextWhite}" VerticalAlignment="Center" Margin="10,0"/>
+            <DatePicker x:Name="StartDatePicker" Width="120" Margin="10,0"/>
+            <TextBlock Text="—" FontSize="16" Foreground="{StaticResource TextWhite}" VerticalAlignment="Center" Margin="5,0"/>
+            <DatePicker x:Name="EndDatePicker" Width="120" Margin="10,0,10,0"/>
+
+            <ComboBox x:Name="CategoryFilterComboBox" Width="150" Padding="5" Margin="10,0,10,0">
+                <ComboBoxItem Content="Все категории"/>
+                <ComboBoxItem Content="Категория 1"/>
+                <ComboBoxItem Content="Категория 2"/>
+            </ComboBox>
+
+        </StackPanel>
+
+        <!-- Область для отображения отчета -->
+        <Border Style="{StaticResource RoundedStackPanelStyle}" Margin="10,10,10,80" Padding="10" Grid.Row="2">
+            <StackPanel>
+                <TextBlock x:Name="ReportTitle" Text="Отчет: Продажи" FontSize="20" FontWeight="Bold" Foreground="{StaticResource TextWhite}" Margin="0,0,0,10"/>
+
+                <!-- Таблица отчета -->
+                <DataGrid x:Name="ReportDataGrid" AutoGenerateColumns="True" CanUserAddRows="False" Margin="0,10,0,10" 
+                          Background="White" Foreground="Black" HeadersVisibility="Column" SelectionMode="Single"/>
+
+                <!-- График отчета (плейсхолдер) -->
+                <TextBlock Text="Диаграмма отчета будет отображена здесь" FontSize="14" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="Gray"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Панель экспорта -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,120,10" Grid.Row="3">
+            <Button Content="Экспорт в PDF" Style="{StaticResource NavigationButtonStyle}" Width="120" Margin="10,0,0,0" />
+            <Button Content="Экспорт в Excel" Style="{StaticResource NavigationButtonStyle}" Width="120" Margin="10,0,0,0" />
+            <Button Content="Экспорт в CSV" Style="{StaticResource NavigationButtonStyle}" Width="120" Margin="10,0,0,0" />
+            <Button Style="{StaticResource NavigationButtonStyle}" Width="120" Height="55" Margin="10,0,0,0" Cursor="Hand">
+                <Button.Content>
+                    <TextBlock TextWrapping="Wrap" Text="Сформировать отчет" TextAlignment="Center" ></TextBlock>
+                </Button.Content>
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

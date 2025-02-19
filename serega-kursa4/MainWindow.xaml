@@ -1,0 +1,44 @@
+﻿<Window x:Class="serega_kursa4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:serega_kursa4"
+        mc:Ignorable="d"
+        Title="Авторизация" Height="450" Width="800">
+    
+    
+    
+    <Grid Background="{StaticResource BackGroundColor}">
+
+        
+        <!-- Заголовок страницы авторизации -->
+        <TextBlock Text="Авторизация" FontSize="24" FontWeight="Bold" Foreground="{StaticResource TextWhite}" 
+                   HorizontalAlignment="Center" Margin="0,30,0,20"/>
+
+        <!-- Скругленный блок с полями для входа -->
+        <Border Style="{StaticResource RoundedStackPanelStyle}" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Width="300">
+
+                <!-- Поле ввода логина или email -->
+                <TextBlock Text="Логин или Email:" FontSize="16" Foreground="{StaticResource TextWhite}" Margin="0,10,0,5"/>
+
+                <TextBox Style="{StaticResource inputBox}"  x:Name="loginTextBox" FontSize="14" Padding="8" BorderThickness="0" >
+                </TextBox>
+
+                <!-- Поле ввода пароля -->
+                <TextBlock Text="Пароль:" FontSize="16" Foreground="{StaticResource TextWhite}" Margin="0,10,0,5"/>
+                <PasswordBox Style="{StaticResource passwordStyle}" x:Name="PasswordBox" FontSize="14" Padding="8" Margin="0,0,0,20" BorderThickness="0"/>
+
+                <!-- Кнопка входа -->
+                <Button Content="Войти" Style="{StaticResource NavigationButtonStyle}" Click="LoginAuthorization"  Width="150" Margin="0,0,0,10" Cursor="Hand"/>
+
+                <!-- Ссылки на восстановление пароля и регистрацию -->
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button Content="Забыли пароль?" Style="{StaticResource TextButtonStyle}" />
+                    <Button x:Name="openRegistration" Content="Регистрация" Style="{StaticResource TextButtonStyle}" Click="OpenRegistration" Margin="10,0,0,0" Cursor="Hand"/>
+                </StackPanel>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
