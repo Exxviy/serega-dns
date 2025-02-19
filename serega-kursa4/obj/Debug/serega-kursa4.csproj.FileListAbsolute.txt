@@ -252,3 +252,5 @@ C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.cspro
 C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.csproj.CopyComplete
 C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.exe
 C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\serega-kursa4.pdb
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\CartWindow.g.cs
+C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\CartWindow.baml

@@ -18,13 +18,14 @@ namespace serega_kursa4
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
+    /// </summary> 
     public partial class MainWindow : Window
     {
         private readonly AppDbContext _context;
 
         public static Employee CurrentUserEmployee { get; private set; }
 
+        public static Client CurrentClient { get; private set; }
 
         public MainWindow()
         {
@@ -74,7 +75,7 @@ namespace serega_kursa4
                     }
 
                     CurrentUserEmployee = userEmployee;
-                    //MessageBox.Show("Авторизация успешна.");
+                    MessageBox.Show("Авторизация успешна.");
                     MainPage mainPage = new MainPage();
                     mainPage.Show();
                     this.Close();
@@ -87,7 +88,8 @@ namespace serega_kursa4
                         return;
                     }
 
-                    //MessageBox.Show("Авторизация успешна.");
+                    CurrentClient = user;
+                    MessageBox.Show("Авторизация успешна.");
                     selectProducts selectProduct = new selectProducts();
                     selectProduct.Show();
                     this.Close();

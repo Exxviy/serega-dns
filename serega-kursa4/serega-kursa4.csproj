@@ -76,6 +76,9 @@
     </Compile>
     <Compile Include="AppDbContext.cs" />
     <Compile Include="Cart.cs" />
+    <Compile Include="CartWindow.xaml.cs">
+      <DependentUpon>CartWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Category.cs" />
     <Compile Include="Client.cs" />
     <Compile Include="clients.xaml.cs">
@@ -129,6 +132,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="addSku.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CartWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -220,12 +227,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Images\cart.png" />
+  </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\graph1.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\graph2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\productImg\box-close.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
