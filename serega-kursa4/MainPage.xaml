@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:serega_kursa4"
         mc:Ignorable="d"
-        Title="MainPage" Height="800" Width="1200">
+        Title="Главная страница" Height="800" Width="1200">
     <Grid Background="{StaticResource BackGroundColor}">
 
         <!-- Определение столбцов и строк -->
@@ -29,7 +29,7 @@
                 <TextBlock Text="Меню" FontSize="20" FontWeight="Bold" Foreground="White" Margin="10,20,10,10" HorizontalAlignment="Center"/>
 
                 <!-- Навигационные кнопки -->
-                <Button x:Name="nextProduct" Content="Товары" Style="{StaticResource NavigationButtonStyle}" Click="NextProduct" Margin="20,10,20,0" Width="200"/>
+                <Button x:Name="nextProduct" Content="Товары" Style="{StaticResource NavigationButtonStyle}" Click="NextProduct" Margin="20,10,20,0" Width="200" />
                 <Button x:Name="nextOrders" Content="Заказы" Style="{StaticResource NavigationButtonStyle}" Click="NextOrders" Margin="20,10,20,0" Width="200" Cursor="Hand"/>
                 <Button x:Name="nextClient" Content="Клиенты" Style="{StaticResource NavigationButtonStyle}" Click="NextClient" Margin="20,10,20,0" Width="200"/>
                 <Button x:Name="nextReports" Content="Отчеты" Style="{StaticResource NavigationButtonStyle}" Click="NextReports" Margin="20,10,20,0" Width="200"/>
@@ -44,27 +44,26 @@
                    Grid.ColumnSpan="2"/>
 
         <!-- Основное содержимое -->
-        <ScrollViewer Grid.Column="1" Grid.Row="1" Margin="20,0,20,20">
+        <ScrollViewer Grid.Column="1" Grid.Row="1" Margin="20,0,20,20" VerticalScrollBarVisibility="Hidden" >
             <StackPanel Orientation="Vertical" >
 
                 <!-- Краткая сводка ключевых показателей -->
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" >
 
-                    <!-- Продажи -->
-                    <Border CornerRadius="20" Width="250" Background="#334d77" Padding="20" Margin="0,0,20,0">
-                        <StackPanel>
-                            <TextBlock Text="Продажи" FontSize="18" FontWeight="Bold" Foreground="{StaticResource TextWhite}"/>
-                            <TextBlock Text="Выручка: 1,200,000 руб." FontSize="16" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
-                            <TextBlock Text="Сегодня: 150,000 руб." FontSize="14" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
-                        </StackPanel>
-                    </Border>
-
                     <!-- Остатки -->
                     <Border CornerRadius="20" Width="250" Background="#334d77" Padding="20" Margin="0,0,20,0">
                         <StackPanel>
                             <TextBlock Text="Остатки" FontSize="18" FontWeight="Bold" Foreground="{StaticResource TextWhite}"/>
-                            <TextBlock Text="На складе: 5000 единиц" FontSize="16" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
-                            <TextBlock Text="Закупка на сумму: 500,000 руб." FontSize="14" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
+                            <TextBlock x:Name="TextBlockStock" FontSize="16" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Продажи -->
+                    <Border CornerRadius="20" Width="250" Background="#334d77" Padding="20" Margin="0,0,20,0">
+                        <StackPanel>
+                            <TextBlock Text="Продажи" FontSize="18" FontWeight="Bold" Foreground="{StaticResource TextWhite}"/>
+                            <TextBlock x:Name="TextBlockRevenue" FontSize="16" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
+                            <TextBlock x:Name="TextBlockRevenueToday" FontSize="14" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
                         </StackPanel>
                     </Border>
 
@@ -72,10 +71,11 @@
                     <Border CornerRadius="20" Width="250" Background="#334d77" Padding="20" Margin="0,0,20,0">
                         <StackPanel>
                             <TextBlock Text="Новые заказы" FontSize="18" FontWeight="Bold" Foreground="{StaticResource TextWhite}"/>
-                            <TextBlock Text="Всего: 200 заказов" FontSize="16" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
-                            <TextBlock Text="Сегодня: 20 заказов" FontSize="14" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
+                            <TextBlock x:Name="TextBlockTotalOrders" FontSize="16" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
+                            <TextBlock x:Name="TextBlockOrdersToday" FontSize="14" Foreground="{StaticResource TextSecondaryColor}" Margin="0,5,0,0"/>
                         </StackPanel>
                     </Border>
+
                 </StackPanel>
 
                 <!-- Визуализация данных (графики, диаграммы) -->
@@ -99,7 +99,7 @@
 
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0, 100, 0, 0">
                     <Button x:Name="addProduct" Content="Добавить товар" Style="{StaticResource NavigationButtonStyle}" Click="AddProduct" Width="200"/>
-                    <Button x:Name="createOrder" Content="Создать заказ" Visibility="Collapsed" Style="{StaticResource NavigationButtonStyle}" Click="CreateOrder" Width="200"/>
+                    <Button x:Name="createOrder" Content="Создать заказ" Visibility="Collapsed" Style="{StaticResource NavigationButtonStyle}" Click="CreateOrder" Width="200" Cursor="Hand"/>
                     <Button x:Name="addClient" Content="Данные клиента"  Style="{StaticResource NavigationButtonStyle}" Click="AddClient" Width="200"/>
                 </StackPanel>
             </StackPanel>

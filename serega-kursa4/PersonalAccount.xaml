@@ -1,0 +1,133 @@
+﻿<Window x:Class="serega_kursa4.PersonalAccount"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:serega_kursa4"
+        mc:Ignorable="d"
+        Title="Личный кабинет" Height="800" Width="1660"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid Background="{StaticResource BackGroundColor}" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Text="Личный кабинет клиента" 
+                   FontSize="28" FontWeight="Bold" 
+                   HorizontalAlignment="Center" Foreground="{StaticResource TextWhite}" Margin="0,10"/>
+
+        <Grid Grid.Row="1" Margin="0,20,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Левая колонка: Информация о клиенте -->
+
+            <StackPanel>
+                <TextBlock Foreground="{StaticResource TextWhite}" FontSize="24" 
+                           FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"  >Информация о клиенте</TextBlock>
+                <Border  Style="{StaticResource RoundedStackPanelStyle}" VerticalAlignment="Top" Padding="10" 
+                    Grid.Column="0" Width="500" Height="500" >
+                    <ScrollViewer VerticalScrollBarVisibility="Hidden"  >
+
+                        <StackPanel Background="{StaticResource BackGroundLight}" Height="560" Width="500"  >
+                            <StackPanel   Height="560" >
+
+                                <TextBlock  Foreground="{StaticResource TextWhite}" FontSize="18"
+                                   Text="ФИО:" FontWeight="SemiBold"/>
+                                <!-- Имя -->
+                                <TextBlock x:Name="nameTextBlock" Visibility="Visible"
+                                       Foreground="{StaticResource TextSecondaryColor}" FontSize="16" Width="400" 
+                                       HorizontalAlignment="Left" Margin="50,0,0,0" />
+                                <TextBox x:Name="name" Style="{StaticResource inputBox}" Padding="8" Width="300" FontSize="16"
+                                     Visibility="Collapsed" Margin="0,5,0,10"   />
+
+                                <!-- Фамилия -->
+                                <TextBlock x:Name="surNameTextBlock" Visibility="Visible"
+                                       Foreground="{StaticResource TextWhite}" FontSize="16"
+                                       HorizontalAlignment="Left" Margin="50,0,0,0" Width="400"  />
+                                <TextBox x:Name="surName" Style="{StaticResource inputBox}" Padding="8" Width="300" FontSize="16"
+                                     Visibility="Collapsed" Margin="0,5,0,10"/>
+
+                                <!-- Отчество -->
+                                <TextBlock x:Name="lastNameTextBlock"  Visibility="Visible" 
+                                       Foreground="{StaticResource TextWhite}" FontSize="16" 
+                                       HorizontalAlignment="Left" Margin="50,0,0,0" Width="400"  />
+                                <TextBox x:Name="lastName"  Style="{StaticResource inputBox}" Padding="8" Width="300" FontSize="16"
+                                     Visibility="Collapsed" Margin="0,5,0,10"/>
+
+                                <!-- Email -->
+                                <TextBlock Foreground="{StaticResource TextWhite}" FontSize="18" Text="Email:" FontWeight="SemiBold" />
+                                <TextBlock x:Name="emailTextBlock" Visibility="Visible" 
+                                       Foreground="{StaticResource TextWhite}" FontSize="16"
+                                       HorizontalAlignment="Left" Margin="50,0,0,0" Width="200"  />
+                                <TextBox x:Name="email" Style="{StaticResource inputBox}" Padding="8" Width="300" FontSize="16"
+                                     Visibility="Collapsed" Margin="0,5,0,10"/>
+
+                                <!-- Телефон -->
+                                <TextBlock Foreground="{StaticResource TextWhite}" FontSize="18" Text="Телефон:" FontWeight="SemiBold"/>
+                                <TextBlock x:Name="phoneNumberTextBlock" Visibility="Visible" 
+                                       Foreground="{StaticResource TextWhite}" FontSize="16" 
+                                       HorizontalAlignment="Left" Margin="50,0,0,0" Width="200"  />
+                                <TextBox x:Name="phoneNumber" Style="{StaticResource inputBox}" PreviewTextInput="PhoneNumberTextInput" TextChanged="PhoneNumberTextChanged"
+                                         Padding="8" Width="300" FontSize="16"
+                                     Visibility="Collapsed" Margin="0,5,0,10"/> 
+                                
+                                <!-- пароль -->
+                                <TextBlock Foreground="{StaticResource TextWhite}" FontSize="18" Text="Пароль:" FontWeight="SemiBold"/>
+                                <TextBlock x:Name="passwordBlock" Visibility="Hidden" 
+                                       Foreground="{StaticResource TextWhite}" FontSize="16" 
+                                       HorizontalAlignment="Left" Margin="50,0,0,0" Width="200"  />
+                                <PasswordBox x:Name="userPassword" Style="{StaticResource passwordStyle}" 
+                                         Padding="8" Width="300" FontSize="16"
+                                     Visibility="Collapsed" Margin="0,5,0,10"/>
+                                
+                                
+
+                                <StackPanel Orientation="Horizontal"  >
+                                    <Button Style="{StaticResource NavigationButtonStyle}" Width="200" Content="Редактировать данные"
+                                Margin="0,30,0,0"  HorizontalAlignment="Left" x:Name="editUserData" Click="EditUserData"  />
+                                    <Button Content="Сохранить" Width="200" Margin="10,30,0,0" Style="{StaticResource NavigationButtonStyle}"
+                                    Click="SaveButton" Visibility="Collapsed" x:Name="saveButton" LostFocus="SaveButtonLostFocus" />
+                                </StackPanel>
+
+                                <Button Style="{StaticResource NavigationButtonStyle}" Width="200" Content="Сменить пароль"
+                                Margin="0,10,0,0" HorizontalAlignment="Left" x:Name="changePassword" Click="ChangePassword"  />
+
+                                <Button Content="Корзина" Style="{StaticResource NavigationButtonStyle}" Width="200"
+                                Margin="0,10,0,0"  HorizontalAlignment="Left" x:Name="openCart" Click="OpenCart" Cursor="Hand"  />
+                                <Button Content="Выбрать товар" Style="{StaticResource NavigationButtonStyle}" Width="200"
+                                Margin="0,10,0,0"  HorizontalAlignment="Left" x:Name="openProducts" Click="OpenProducts" />
+                            </StackPanel>
+                    </StackPanel>
+                    </ScrollViewer>
+                </Border>
+            </StackPanel>
+
+            <!-- Правая колонка: История заказов -->
+            <StackPanel Grid.Column="1" >
+                <TextBlock Foreground="{StaticResource TextWhite}" FontSize="24" 
+                           FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,10"  >Заказы</TextBlock>
+                
+                <Border Style="{StaticResource RoundedStackPanelStyle}" Width="855" Height="500" Padding="10"  >
+                    <ListView Background="{StaticResource BackGroundLight}" x:Name="OrdersListView" ScrollViewer.VerticalScrollBarVisibility="Hidden"  Height="450" d:ItemsSource="{d:SampleData ItemCount=5}">
+                        <ListView.View >
+                            <GridView  >
+                                <GridViewColumn Header="№" Width="50" DisplayMemberBinding="{Binding OrderID}"/>
+                                <GridViewColumn Header="Дата" Width="150" DisplayMemberBinding="{Binding OrderDate}"/>
+                                <GridViewColumn Header="Статус" Width="150" DisplayMemberBinding="{Binding Status}"/>
+                                <GridViewColumn Header="Сумма" Width="150" DisplayMemberBinding="{Binding TotalPrice}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Border>
+                
+                <Button Click="RefreshOrders" Style="{StaticResource NavigationButtonStyle}" Width="200" Height="40" Margin="0,10,0,0" >Обновить заказы</Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>

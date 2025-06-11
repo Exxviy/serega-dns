@@ -10,7 +10,6 @@ namespace serega_kursa4
 {
     public int OrderID { get; set; }
     public int ClientID { get; set; }
-    public int Client { get; set; }
     public DateTime OrderDate { get; set; }
     public string Status { get; set; }
     public ICollection<OrderItem> OrderItems { get; set; }

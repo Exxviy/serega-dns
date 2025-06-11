@@ -90,9 +90,11 @@ namespace serega_kursa4
 
                     CurrentClient = user;
                     MessageBox.Show("Авторизация успешна.");
-                    selectProducts selectProduct = new selectProducts();
-                    selectProduct.Show();
+
+                    PersonalAccount personalAccounts = new PersonalAccount(user.ClientID);
+                    personalAccounts.Show();
                     this.Close();
+
                 }
                 }
             catch (Exception ex)

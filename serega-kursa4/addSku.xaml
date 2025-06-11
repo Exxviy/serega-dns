@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:serega_kursa4"
       mc:Ignorable="d" 
       d:DesignHeight="600" d:DesignWidth="800"
-      Title="addSku">
+      Title="Добавить товар">
 
     <Grid Background="{StaticResource BackGroundColor}">
 
@@ -39,7 +39,9 @@
             <TextBox  Style="{StaticResource inputBox}" x:Name="priceProducts" Width="300" Padding="5" Margin="0,0,0,15"  InputScope="Number"/>
 
             <!-- Кнопка для добавления товара -->
-            <Button x:Name="addNewProducts" Content="Сохранить" Style="{StaticResource NavigationButtonStyle}" Width="150" Click="AddNewProducts" HorizontalAlignment="Center" Cursor="Hand" />
+            <Button x:Name="addNewProducts" Content="Сохранить" 
+                    Style="{StaticResource NavigationButtonStyle}" Width="150" Click="AddNewProducts" 
+                    HorizontalAlignment="Center" Cursor="Hand" />
         </StackPanel>
         </Border>
     </Grid>

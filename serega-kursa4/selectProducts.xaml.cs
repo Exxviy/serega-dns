@@ -65,16 +65,7 @@ namespace serega_kursa4
             //productList.ItemsSource = products;
         }
 
-        //private void searchTextChanged(object sender, TextChangedEventArgs e)
-        //{
-        //    if (search == null || _context == null)
-        //        return;
-
-        //    string searchText = search.Text.ToLower();
-
-        //    productList.ItemsSource = _context.Products.Where(prd =>
-        //        prd.ProductName.ToLower().Contains(searchText)).ToList();
-        //}
+    
 
         //private void categoryFiltersSelectionChanged(object sender, SelectionChangedEventArgs e)
         //{
@@ -122,6 +113,24 @@ namespace serega_kursa4
                 _cart.Add(product);
             }
 
+
+        }
+
+        private void BackWindow(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void SearchTextChanged(object sender, TextChangedEventArgs e)
+        {
+ 
+            if (search == null || _context == null)
+                return;
+
+            string searchText = search.Text.ToLower();
+
+            ProductsListView.ItemsSource = _context.Products.Where(prd =>
+                prd.ProductName.ToLower().Contains(searchText)).ToList();
 
         }
     }

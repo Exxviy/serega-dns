@@ -6,7 +6,7 @@
       xmlns:local="clr-namespace:serega_kursa4"
       mc:Ignorable="d" 
       d:DesignHeight="850" d:DesignWidth="1200"
-      Title="employees">
+      Title="Сотрудники">
 
     <Grid Background="{StaticResource BackGroundColor}" >
 
@@ -39,11 +39,17 @@
 
         <!-- Панель управления -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,40,0,10">
-            <Button Content="Назад" Name="backWindow" Click="BackWindow"  Style="{StaticResource NavigationButtonStyle}" Width="150" Height="40" Margin="10,0,0,0" Cursor="Hand" />
-            <Button x:Name="addEmployee" Content="Добавить" Style="{StaticResource NavigationButtonStyle}" Width="150" Height="40" Cursor="Hand" Click="AddEmployee" />
-            <Button x:Name="editEmployee" Content="Редактировать" Style="{StaticResource NavigationButtonStyle}" Width="150" Height="40" Margin="0,0,0,0"  Click="EditEmployee" />
-            <Button x:Name="delete" Content="Удалить" Style="{StaticResource NavigationButtonStyle}" Width="150" Height="40" Margin="10,0,0,0" Click="DeleteEmployee" />
-            <TextBox GotFocus="searchTextBoxGotFocus" LostFocus="searchTextBoxLostFocus" Padding="5" Style="{StaticResource inputBox}" Name="searchTextBox" Width="200" Margin="10,0,0,0" FontSize="16" Foreground="{StaticResource TextWhite}"  Height="40" TextChanged="SearchTextBoxTextChanged" Text="Поиск..." ></TextBox>
+            <Button Content="Назад" Name="backWindow" Click="BackWindow"  Style="{StaticResource NavigationButtonStyle}"
+                    Width="150" Height="40" Margin="10,0,0,0" Cursor="Hand" />
+            <Button x:Name="addEmployee" Content="Добавить" Style="{StaticResource NavigationButtonStyle}" 
+                    Width="150" Height="40" Cursor="Hand" Click="AddEmployee" />
+            <Button x:Name="editEmployee" Content="Редактировать" Style="{StaticResource NavigationButtonStyle}"
+                    Width="150" Height="40" Margin="0,0,0,0"  Click="EditEmployee" />
+            <Button x:Name="delete" Content="Удалить" Style="{StaticResource NavigationButtonStyle}" 
+                    Width="150" Height="40" Margin="10,0,0,0" Click="DeleteEmployee" />
+            <TextBox GotFocus="searchTextBoxGotFocus" LostFocus="searchTextBoxLostFocus" Padding="5" Style="{StaticResource inputBox}" Name="searchTextBox" 
+                     Width="200" Margin="10,0,0,0" FontSize="16" Foreground="{StaticResource TextWhite}" 
+                     Height="40" TextChanged="SearchTextBoxTextChanged" Text="Поиск..." ></TextBox>
         </StackPanel>
 
     </Grid>

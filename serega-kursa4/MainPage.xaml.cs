@@ -19,9 +19,14 @@ namespace serega_kursa4
     /// </summary>
     public partial class MainPage : Window
     {
+
+        private readonly AppDbContext _context = new AppDbContext();
+
+
         public MainPage()
         {
             InitializeComponent();
+            LoadDashboardStats();
         }
 
         private void AddProduct(object sender, RoutedEventArgs e)
@@ -77,5 +82,48 @@ namespace serega_kursa4
             settings settings = new settings();
             settings.ShowDialog();
         }
+
+
+        private void LoadDashboardStats()
+        {
+            // 1. Остатки на складе
+            int totalInStock = _context.ProductMovements
+                .Where(m => m.MovementType == "Приход")
+                .Sum(m => (int?)m.Quantity) ?? 0;
+
+            int totalOutStock = _context.ProductMovements
+                .Where(m => m.MovementType == "Расход")
+                .Sum(m => (int?)m.Quantity) ?? 0;
+
+            int currentStock = totalInStock - totalOutStock;
+            TextBlockStock.Text = $"На складе: {currentStock} единиц";
+
+            // 2. Выручка (сумма оплаченных заказов)
+            decimal totalRevenue = _context.Payments
+                .Where(p => p.PaymentStatus == "Оплачено")
+                .Sum(p => (decimal?)p.Amount) ?? 0;
+
+            TextBlockRevenue.Text = $"Выручка: {totalRevenue:N0} руб.";
+
+            // 3. Продажи за сегодня
+            DateTime today = DateTime.Today;
+            decimal todayRevenue = _context.Payments
+                .Where(p => p.PaymentStatus == "Оплачено" && p.PaymentDate >= today)
+                .Sum(p => (decimal?)p.Amount) ?? 0;
+
+            TextBlockRevenueToday.Text = $"Сегодня: {todayRevenue:N0} руб.";
+
+            // 4. Новые заказы за сегодня
+            int ordersToday = _context.Orders
+                .Count(o => o.OrderDate >= today);
+
+            TextBlockOrdersToday.Text = $"Сегодня: {ordersToday} заказов";
+
+            // 5. Всего заказов
+            int totalOrders = _context.Orders.Count();
+            TextBlockTotalOrders.Text = $"Всего: {totalOrders} заказов";
+        }
+
+
     }
 }

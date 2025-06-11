@@ -16,6 +16,8 @@ public class AppDbContext : DbContext
     public DbSet<Cart> Carts { get; set; }
     public DbSet<Payment> Payments { get; set; }
     public DbSet<Shipment> Shipments { get; set; }
+    public DbSet<Warehouse> Warehouses { get; set; }
+    public DbSet<ProductMovement> ProductMovements { get; set; }
 
        //protected override void OnModelCreating(ModelBuilder modelBuilder)
     //{

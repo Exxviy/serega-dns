@@ -90,6 +90,7 @@
     <Compile Include="createOrder.xaml.cs">
       <DependentUpon>createOrder.xaml</DependentUpon>
     </Compile>
+    <Compile Include="dto\OrderViewHistory.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="employees.xaml.cs">
       <DependentUpon>employees.xaml</DependentUpon>
@@ -105,8 +106,15 @@
       <DependentUpon>order.xaml</DependentUpon>
     </Compile>
     <Compile Include="OrderItem.cs" />
+    <Compile Include="PayedOrder.xaml.cs">
+      <DependentUpon>PayedOrder.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Payment.cs" />
+    <Compile Include="PersonalAccount.xaml.cs">
+      <DependentUpon>PersonalAccount.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs" />
+    <Compile Include="ProductMovement.cs" />
     <Compile Include="Registration.xaml.cs">
       <DependentUpon>Registration.xaml</DependentUpon>
     </Compile>
@@ -126,6 +134,7 @@
     <Compile Include="Sorting.xaml.cs">
       <DependentUpon>Sorting.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Warehouse.cs" />
     <Page Include="addClient.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -175,6 +184,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="order.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PayedOrder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonalAccount.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

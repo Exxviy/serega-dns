@@ -5,25 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:serega_kursa4"
         mc:Ignorable="d"
-        Title="CartWindow" Height="750" Width="1000">
+        Title="Корзина" Height="750" Width="1000">
     <Grid Background="{StaticResource BackGroundColor}">
         <StackPanel Margin="10">
 
-            <DockPanel >
-                <Button x:Name="backWindow" Click="BackWindow" HorizontalAlignment="Left"  Style="{StaticResource NavigationButtonStyle}" VerticalAlignment="Bottom">
-                    <TextBlock Margin="10">Назад</TextBlock>
-                </Button>
+            <StackPanel Height="80" Orientation="Horizontal" >
+                <Button x:Name="backWindow" Click="BackWindow" HorizontalAlignment="Left" Height="40"
+                        Style="{StaticResource NavigationButtonStyle}" 
+                        Width="150"  >Назад</Button>
 
-                <TextBlock Text="Корзина" FontSize="24" FontWeight="Bold" Margin="0,0,70,0" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            </DockPanel>
-           
+                <TextBox Padding="5" Style="{StaticResource inputBox}" Name="search" 
+                      Width="200" Margin="5" TextChanged="SearchTextChanged"
+                     FontSize="16" Foreground="{StaticResource TextWhite}"  Height="40" >Поиск...</TextBox>
+            </StackPanel>
 
-            <ScrollViewer VerticalScrollBarVisibility="Auto">
-                <ListView x:Name="CartListView" HorizontalContentAlignment="Stretch" >
+            <Border Style="{StaticResource RoundedStackPanelStyle}" Width="950" Height="520"   >
+                <ListView Background="{StaticResource BackGroundLight}" Height="520" Width="900" x:Name="CartListView" HorizontalContentAlignment="Stretch"
+                      ScrollViewer.VerticalScrollBarVisibility="Hidden" ScrollViewer.HorizontalScrollBarVisibility="Disabled" d:ItemsSource="{d:SampleData ItemCount=5}">
                     <ListView.ItemTemplate>
                         <DataTemplate>
-                            <Border BorderThickness="1" BorderBrush="Gray" Padding="10" Margin="5">
-                                <DockPanel  VerticalAlignment="Center">
+                            <Border Margin="0,10,0,0" Style="{StaticResource RoundedStackPanelStyle}" Width="875" Height="70"  Background="{StaticResource BackGroundMoreLight}"  >
+                                <DockPanel    VerticalAlignment="Center">
                                     <StackPanel Orientation="Horizontal">
                                         <Image Source="Images/productImg/box-close.png" Width="50" Height="50" Margin="5"/>
                                         <StackPanel>
@@ -31,20 +33,19 @@
                                             <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}" FontSize="16"/>
                                         </StackPanel>
                                     </StackPanel>
-                                   
+
                                     <Button x:Name="removeCart" Click="RemoveFromCart" Tag="{Binding}"   Style="{StaticResource NavigationButtonStyle}" Margin="10" HorizontalAlignment="Right" VerticalAlignment="Center">
                                         <TextBlock Margin="10">Удалить</TextBlock>
                                     </Button>
                                 </DockPanel>
-                              
                             </Border>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
-            </ScrollViewer>
-            
+            </Border>
 
-            <Button  Click="PlaceOrder" HorizontalAlignment="Center"  Style="{StaticResource NavigationButtonStyle}" VerticalAlignment="Bottom">
+            <Button  Click="PlaceOrder" HorizontalAlignment="Center"  Style="{StaticResource NavigationButtonStyle}" 
+                     VerticalAlignment="Bottom" >
                 <TextBlock Margin="10">Оформить заказ</TextBlock>
             </Button>
         </StackPanel>

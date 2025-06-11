@@ -1,0 +1,55 @@
+﻿<Window x:Class="serega_kursa4.PayedOrder"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:serega_kursa4"
+        mc:Ignorable="d"
+        Title="Оплата заказа" Height="450" Width="800">
+    <Grid Background="{StaticResource BackGroundColor}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Margin="15">
+
+            <TextBlock Text="Оплата заказа" FontSize="22" FontWeight="Bold"
+                       Foreground="{StaticResource TextWhite}" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+
+            <!-- Выбор банка -->
+            <Border Style="{StaticResource RoundedStackPanelStyle}" Margin="5">
+                <ComboBox x:Name="BankComboBox"  
+                          Background="{StaticResource BackGroundMoreLight}"
+                          SelectedIndex="0"
+                          Margin="10">
+                    <ComboBoxItem Content="Сбербанк"/>
+                    <ComboBoxItem Content="Тинькофф"/>
+                    <ComboBoxItem Content="ВТБ"/>
+                    <ComboBoxItem Content="Альфа-банк"/>
+                </ComboBox>
+            </Border>
+
+            <!-- Номер карты -->
+            <Border Style="{StaticResource RoundedStackPanelStyle}" Margin="5">
+                <TextBox x:Name="CardNumberBox" Style="{StaticResource inputBox}" 
+                         MaxLength="19" Margin="10" />
+            </Border>
+
+            <!-- CVV -->
+            <Border Style="{StaticResource RoundedStackPanelStyle}" Margin="5">
+                <PasswordBox x:Name="CvvBox" Style="{StaticResource passwordStyle}" 
+                             MaxLength="3" Margin="10"/>
+            </Border>
+
+            <!-- Кнопка оплаты -->
+            <Button x:Name="payBtn" Content="Оплатить" Style="{StaticResource NavigationButtonStyle}" Click="Pay" Cursor="Hand" Width="200"/>
+
+            <!-- Имитация загрузки -->
+            <StackPanel x:Name="LoadingPanel" Visibility="Collapsed" Orientation="Horizontal" HorizontalAlignment="Center">
+                <ProgressBar Width="100" Height="10" IsIndeterminate="True" Margin="5"/>
+                <TextBlock Text="Обработка..." Foreground="{StaticResource TextWhite}" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <!-- Сообщение после оплаты -->
+            <TextBlock x:Name="SuccessMessage" Text="Спасибо за покупку!" FontSize="18" 
+                       FontWeight="Bold" Foreground="LightGreen" Visibility="Collapsed" 
+                       HorizontalAlignment="Center" Margin="10"/>
+        </StackPanel>
+    </Grid>
+</Window>

@@ -49,15 +49,17 @@ namespace serega_kursa4
 
         private void PlaceOrder(object sender, RoutedEventArgs e)
         {
-            if (_cart.Count == 0)
+            if (_cart == null || !_cart.Any())
             {
                 MessageBox.Show("Корзина пуста!");
                 return;
             }
 
+
             int clientId = MainWindow.CurrentClient.ClientID; 
             var newOrder = new Order
             {
+                OrderID= 0,
                 ClientID = clientId,
                 OrderDate = DateTime.Now,
                 Status = "В обработке",
@@ -74,11 +76,14 @@ namespace serega_kursa4
                 });
             }
 
-            _context.Orders.Add(newOrder);
+            _context.Orders.Add(newOrder);   
             _context.SaveChanges();
             _cart.Clear();
 
-            MessageBox.Show("Заказ оформлен!");
+            PayedOrder payedOrder = new PayedOrder(newOrder.OrderID);
+            payedOrder.Show();
+
+            //MessageBox.Show("Заказ оформлен!");
             
         }
       
@@ -91,5 +96,16 @@ namespace serega_kursa4
             Close();
         }
 
+        private void SearchTextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (search == null || _context == null)
+                return;
+
+            string searchText = search.Text.ToLower();
+
+            CartListView.ItemsSource = _context.Products.Where(prd =>
+                prd.ProductName.ToLower().Contains(searchText)).ToList();
+
+        }
     }
 }

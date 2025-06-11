@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\App.xaml
-17-1947932969
+191511943523
 
-32451225274
+37-941313681
 16803527111
-addClient.xaml;AddEditEmployeeWindow.xaml;addSku.xaml;CartWindow.xaml;clients.xaml;createOrder.xaml;employees.xaml;MainPage.xaml;MainWindow.xaml;makeCategory.xaml;order.xaml;Registration.xaml;Reports.xaml;selectProducts.xaml;settings.xaml;sku.xaml;Sorting.xaml;
+addClient.xaml;AddEditEmployeeWindow.xaml;addSku.xaml;CartWindow.xaml;clients.xaml;createOrder.xaml;employees.xaml;MainPage.xaml;MainWindow.xaml;makeCategory.xaml;order.xaml;PayedOrder.xaml;PersonalAccount.xaml;Registration.xaml;Reports.xaml;selectProducts.xaml;settings.xaml;sku.xaml;Sorting.xaml;
 
 False
 

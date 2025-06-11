@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\obj\Debug\
+C:\Users\79518\Desktop\seregaDiplom\serega-kursa4\obj\Debug\
 serega_kursa4
 none
 false
 DEBUG;TRACE
-C:\Users\79518\Desktop\serega-kursa4\serega-kursa4\App.xaml
-17-1947932969
+C:\Users\79518\Desktop\seregaDiplom\serega-kursa4\App.xaml
+191511943523
 
-31-1761653404
-16803527111
-addClient.xaml;AddEditEmployeeWindow.xaml;addSku.xaml;CartWindow.xaml;clients.xaml;createOrder.xaml;employees.xaml;MainPage.xaml;MainWindow.xaml;makeCategory.xaml;order.xaml;Registration.xaml;Reports.xaml;selectProducts.xaml;settings.xaml;sku.xaml;Sorting.xaml;
+361140774937
+16725323229
+addClient.xaml;AddEditEmployeeWindow.xaml;addSku.xaml;CartWindow.xaml;clients.xaml;createOrder.xaml;employees.xaml;MainPage.xaml;MainWindow.xaml;makeCategory.xaml;order.xaml;PayedOrder.xaml;PersonalAccount.xaml;Registration.xaml;Reports.xaml;selectProducts.xaml;settings.xaml;sku.xaml;Sorting.xaml;
 
 False
 

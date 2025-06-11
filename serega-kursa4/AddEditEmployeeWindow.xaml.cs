@@ -148,6 +148,8 @@ namespace serega_kursa4
             e.Handled = !Regex.IsMatch(e.Text, @"[\d+]");
         }
 
+
+
         private void saveEmployeeLostFocus(object sender, RoutedEventArgs e)
         {
             if (!Regex.IsMatch(emailField.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
