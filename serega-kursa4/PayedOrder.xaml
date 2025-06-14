@@ -40,8 +40,8 @@
                           Background="{StaticResource BackGroundMoreLight}"
                           SelectedIndex="0"
                           Margin="10">
-                        <ComboBoxItem Content="Доставка"/>
                         <ComboBoxItem Content="Самовывоз"/>
+                        <ComboBoxItem Content="Доставка"/>
                         </ComboBox>
 
                     <TextBox x:Name="address" 

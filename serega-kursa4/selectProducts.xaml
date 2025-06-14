@@ -40,9 +40,16 @@
                                         <TextBlock Text="{Binding Price, StringFormat='Цена: {0:C}'}" FontSize="16"  FontWeight="Bold" Margin="10"/>
 
                                     </StackPanel>
+
+                                <StackPanel Orientation="Vertical" VerticalAlignment="Center" >
                                     <Button  HorizontalAlignment="Right" x:Name="addToCart" Click="AddToCart" Tag="{Binding}" Style="{StaticResource NavigationButtonStyle}">
                                         <TextBlock Margin="10">Добавить в корзину</TextBlock>
                                     </Button>
+                                    <Button  HorizontalAlignment="Right" VerticalAlignment="Bottom" x:Name="moreDetails" Click="MoreDetails" Tag="{Binding}" Style="{StaticResource NavigationButtonStyle}">
+                                        <TextBlock Margin="10">Подробнее о товаре</TextBlock>
+                                    </Button>
+                                </StackPanel>
+                                   
                                 </DockPanel>
                             </Border>
                         </DataTemplate>

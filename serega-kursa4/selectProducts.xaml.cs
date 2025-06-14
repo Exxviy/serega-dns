@@ -133,6 +133,11 @@ namespace serega_kursa4
                 prd.ProductName.ToLower().Contains(searchText)).ToList();
 
         }
+
+        private void moreDetails(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
     
 }

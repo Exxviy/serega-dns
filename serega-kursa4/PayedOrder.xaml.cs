@@ -27,6 +27,14 @@ namespace serega_kursa4
             InitializeComponent();
             idOrder = id;
 
+            var client = MainWindow.CurrentClient;
+            if (client != null)
+            {
+                phoneNumber.Text = client.PhoneNumber;
+                email.Text = client.Email;
+            }
+
+
             methodDelievery.SelectionChanged += DeliveryMethodChanged;
             BankComboBox.SelectionChanged += PaymentMethodChanged;
         }
@@ -160,7 +168,7 @@ namespace serega_kursa4
             phoneNumber.CaretIndex = text.Length; // Ставим курсор в конец строки
         }
 
-        private void PhoneNumberPreviewTextInput(object sender, TextCompositionEventArgs e)
+        private void PhoneNumberPreviewText(object sender, TextCompositionEventArgs e)
         {
             e.Handled = !Regex.IsMatch(e.Text, @"[\d+]");
         }
